@@ -1,13 +1,4 @@
-import os
 import discord
-
-from dotenv import load_dotenv
-
-# Loads the .env file
-load_dotenv()
-
-# Get the API token from the .env file
-tk = os.getenv("TOKEN")
 
 # Create a client object from the discord.py module
 bot = discord.Client()
@@ -32,4 +23,4 @@ async def on_message(msg):
         await msg.channel.send("confirmed")
         
 # Run the bot
-bot.run(tk) 
+bot.run(MTAwNTcxMjQ5MzEwMTk4NTgwMg.GbE93O.Wty0GZCYi6JfUwkT4YwPy5kPnPnONOd8BAYQVA) 
